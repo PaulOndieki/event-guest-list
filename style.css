@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#guest-list {
+  list-style: none;
+  padding: 0;
+}
+
+.guest-item {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.friend { background-color: #d1f7d1; }
+.family { background-color: #f7d1d1; }
+.colleague { background-color: #d1d7f7; }
+
+.timestamp {
+  font-size: 0.8em;
+  color: gray;
+}
